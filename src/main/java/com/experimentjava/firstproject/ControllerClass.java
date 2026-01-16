@@ -37,3 +37,37 @@ class CollectionsExample {
         Map<String, Integer> nameToAge = Map.of("Alice", 30, "Bob", 25);
     }
 }
+class LoopExample {
+    public static void main(String[] args) {
+        // For loop
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("For loop iteration: " + i);
+        }
+
+        // While loop
+        int j = 1;
+        while (j <= 5) {
+            System.out.println("While loop iteration: " + j);
+            j++;
+        }
+
+        // Do-while loop
+        int k = 1;
+        do {
+            System.out.println("Do-while loop iteration: " + k);
+            k++;
+        } while (k <= 5);
+    }
+}
+class ArrayExample {
+    public static void main(String[] args) {
+        int[] numbers = {10, 20, 30, 40, 50};
+    }
+}
+
+ class  currentDateTime {
+    public static void main(String[] args) {
+        java.time.LocalDateTime currentDateTime = java.time.LocalDateTime.now();
+        System.out.println("Current Date and Time: " + currentDateTime);
+    }
+}
